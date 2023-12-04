@@ -1,0 +1,333 @@
+* {
+    padding: 0vw;
+    margin: 0vw;
+    overflow-x: hidden;
+    font-family: 'Gruppo', serif;
+    font-size: 1.5vw;
+
+
+}
+.navbar-toggler{
+    margin-left:30vw;
+}
+div{
+    overflow-y: hidden;
+}
+
+.nav-item {
+    font-size: 0.7rem;
+}
+
+.navbar-nav > li > a:hover {
+    background-color:  #c5dbcc;
+    color: white;
+}
+
+/* .contain{
+    width: 100%;
+    height: 100vh;
+} */
+.main {
+    width: 100%;
+
+
+}
+
+.mainImg {
+    position: relative;
+    width: 100%;
+
+
+}
+
+.mainText {
+    line-height: 3vw;
+    left: 15vw;
+    top: 20vw;
+    width: 50%;
+    position: absolute;
+
+}
+
+.shop {
+    background-color: #c5dbcc;
+    padding: 1vw;
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+.shop:hover {
+    background-color: rgb(128, 128, 128, 0.2)
+}
+
+.threeImg {
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+
+}
+
+.threeImg>div {
+
+    padding: 3vw;
+}
+
+.threeImg>div>img {
+    width: 9vw;
+
+}
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.flex1>div>a {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+    padding: 1vw;
+    font-size: medium;
+}
+
+.flex1>div>a:hover {
+    background-color: rgb(197, 219, 204, 0.1)
+}
+
+
+.flex1>div {
+    width: 50%;
+    height: 50vw;
+}
+
+.flex1>div>img {
+    width: 100%;
+    height: 50vw;
+}
+
+.ingredients {
+
+    padding: 5vw;
+    background-color: #c5dbcc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2.5vw;
+
+}
+
+.flex2>div>a {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+    padding: 1vw;
+    font-size: medium;
+}
+
+.flex2>div>a:hover {
+    background-color: rgb(222, 172, 176, 0.1)
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex2>div {
+    width: 50%;
+    height: 40vw;
+}
+
+.flex2>div>img {
+    width: 100%;
+    height: 40vw;
+}
+
+.vision {
+
+    padding: 5vw;
+    background-color: #deacb0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2.5vw;
+
+}
+
+.footer {
+    margin-top: 3vw;
+    margin-left: 16vw;
+}
+
+.container {
+    display: grid;
+
+
+    grid-template-columns: repeat(3, 1fr);
+    text-align: justify;
+
+
+
+}
+
+
+.brand {
+    margin-top: 1vw;
+    padding-right: 1vw;
+    font-size: 25px;
+    color: rgb(185, 182, 182);
+}
+
+.brand:hover {
+    color: rgb(222, 172, 176)
+}
+
+li {
+    list-style: none;
+}
+
+li>a {
+    text-decoration: none;
+}
+.col_2{
+    margin-left: 4vw;
+}
+
+.final {
+    
+    margin-right: 13vw;
+}
+
+@media (max-width:651px) {
+    * {
+        font-size: 3vw;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+
+        text-align: center;
+
+    }
+
+    .mainText {
+        position: inherit;
+        width: 100%;
+        height: 35vw;
+        line-height: 6vw;
+
+
+    }
+
+    .threeImg {
+        margin: 10vw;
+    }
+
+    .threeImg>div>img {
+        width: 20vw;
+    }
+
+    .flex1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flex1>div {
+        width: 100%;
+        height: 100vw;
+    }
+
+    .flex1>div>img {
+        height: auto;
+        width: 100%
+    }
+
+    .ingredients {
+        line-height: 6vw;
+    }
+
+    .flex2 {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .flex2>div {
+        width: 100%;
+        height: 100vw;
+    }
+
+    .flex2>div>img {
+        height: auto;
+        width: 100%
+    }
+
+    .vision {
+        line-height: 6vw;
+    }
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .col_1{
+        padding-bottom: 5vw;
+        width: 100vw;
+    }
+    .col_2{
+        padding-bottom: 5vw;
+    }
+
+}
+
+form {
+    margin-bottom: 1vw;
+}
+
+input {
+    border: 0.1px solid rgb(170, 170, 170);
+    border-radius: 1px;
+    width: 70%;
+    padding: 0.3vw;
+    margin-bottom: 5vw;
+
+}
+
+
+input::placeholder {
+    font-size: smaller;
+}
+
+.sign {
+
+    background-color: #c5dbcc;
+    padding: 1vw;
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+.sign:hover {
+    background-color: #deacb0;
+}
+
+.col_3>li>a {
+    color: #000000;
+    font-size: medium;
+}
+
+.col_3>li>a:hover {
+    color: #deacb0;
+}
+
+.footer>p {
+    font-size: medium;
+}
